@@ -1,0 +1,23 @@
+
+/*Tablet layout*/
+
+@media only screen and (min-width: 200px) and (max-width: 768px)
+{.mainHeader{padding: 10px;}.mainHeader_img{padding: 5px 0; width: 210px;float: left;}.socialIcon ul{text-align: right;}
+.PosterText h1 {font-size: 37px; margin-top: 0px;margin-left: 10px;} .commonService p {color: #564343;text-align: justify;}
+.inner_footer {margin: 2%;width: 46%; text-align: justify;} .inner_footer hr{margin: 10px 0;} .inner_footer h3{margin-bottom:10px;}
+.inner_LATEST_BLOG a {float: left;margin-bottom: 15px;}.template_author{float: left; margin-bottom: 30px;}}
+
+
+
+/*Mobile layout*/
+
+@media only screen and (min-width: 200px) and (max-width: 478px)
+{.minimenu {width: 100%;}.searchArea { width: 50%; margin: 0 auto; float: none}.mainHeader_img {margin: 0 auto;float: none;}
+.socialIcon ul {text-align: center;} .commonService {width: 92.3%; float: none; margin: 4%;} .commonService h3 {font-size: 26px; 
+margin: 20px 0;} .PosterText a {float: left;padding: 2%;}.Poster_img {width: 60%; float: none;}.PosterText {width: 101%;float: none; 
+margin: 1%; text-align: justify;} .PosterText h1 { font-size: 26px; text-align: center;} .Poster img{width: 84%; margin-right: 7%;}
+.searchArea form {width: 119%;}.inner_footer { width: 96%} .CONTACT_US input, .CONTACT_US textarea {width: 92%;}.inner_copy_right_section{
+margin: 13px;
+}
+}
+
