@@ -21,3 +21,20 @@ margin: 1%; text-align: justify;} .PosterText h1 { font-size: 26px; text-align: 
  .commonService a {float: none;}.inner_service_section {margin-top: 15px;}.inner_footer hr { margin: 10px 0;}
 .inner_footer h3 {margin-bottom: 10px;} .template_author {float: none;}}
 
+
+@media only screen and (min-width: 200px) and (max-width: 980px)
+{
+.DropDownMenu ul li ul {
+    position: relative;}
+
+    .DropDownMenu ul li ul{
+    position: relative;
+    left:0px;}
+
+    .DropDownMenu ul li:hover ul li a{
+    color: white;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+}
+}
